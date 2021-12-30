@@ -16,6 +16,9 @@ expression by transforming it into an equivalent postfix notation, and evaluatin
 try it out:
 
 g++ -c postfixUtility.cpp
+
 g++ -o main.o main.cpp postfixUtility.o
+
 ./main.o "(4+3* 12)/ ( 12+ 3/ 2+ 46 /4)"
+
 1.6667
